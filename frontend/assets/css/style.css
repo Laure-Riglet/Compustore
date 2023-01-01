@@ -1,0 +1,122 @@
+@import url(https://fonts.bunny.net/css?family=chau-philomene-one:400|courier-prime:400,700);
+
+body {
+    background-image: url(../img/background/bg-pattern.png);
+}
+
+#wrapper {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #000000;
+    background-image: url(../img/background/computer-home.png);
+    background-size: 55%;
+    background-position: 0 4vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 0 10px black, -10px 0 10px black;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+#wrapper > img {
+    width: 55%;
+    max-width: 660px;
+    z-index: 99;
+    position: absolute;
+    top: 4vh;
+}
+
+nav {
+    height: 8vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.navbar {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img.icons {
+    width: 4vh;
+}
+
+.gradient-text {
+    background-image: linear-gradient(#eccf83, #ac7b40);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+header {
+    margin-left: 45%;
+    margin-bottom: 2vh;
+    height: 30vw;
+    padding: 2vh 2vh 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.05em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+section {
+    padding: 1vh 2vh;
+    text-align: center;
+}
+
+p {
+    font-family: 'courier prime';
+    color: #ffffff;
+    font-size: 0.7em;
+    line-height: 1.2;
+}
+
+.itemlist-item-wrapper {
+    background-image: linear-gradient(to bottom, rgba(0, 89, 87, 1) 30%, rgba(0, 89, 87, 0)), url(../img/background/bg-pattern.png);
+    padding: 2vh;
+    margin: 2vh auto;
+    color: #ffffff;
+}
+
+.product-title {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: start;
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 1vh;
+}
+
+.product-price {
+    font-family: 'courier prime';
+    font-size: 1em;
+    font-weight: 700;
+    text-align: start;
+    text-shadow: 3px 3px 3px black;
+}
+
+.product-image {
+    padding: 2vh;
+    border-radius: 2vh;
+}
