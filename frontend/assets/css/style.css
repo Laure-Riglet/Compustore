@@ -47,6 +47,7 @@ nav img.icons {
 .gradient-text {
     background-image: linear-gradient(#eccf83, #ac7b40);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -55,9 +56,8 @@ nav img.icons {
 
 header {
     margin-left: 45%;
-    margin-bottom: 2vh;
-    height: 30vw;
-    padding: 2vh 2vh 4vh;
+    height: 40vw;
+    padding-bottom: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,9 +76,9 @@ h2 {
 }
 
 h3 {
-    font-size: 0.7em;
+    font-size: .7em;
     text-transform: uppercase;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
 }
 
 section {
@@ -89,15 +89,28 @@ section {
 p {
     font-family: 'courier prime';
     color: #ffffff;
-    font-size: 0.7em;
+    font-size: .8em;
     line-height: 1.2;
 }
 
 .itemlist-item-wrapper {
     background-image: linear-gradient(to bottom, rgba(0, 89, 87, 1) 30%, rgba(0, 89, 87, 0)), url(../img/background/bg-pattern.png);
-    padding: 2vh;
+    padding: 2vh 2vh 0;
     margin: 2vh auto;
     color: #ffffff;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-up-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .product-title {
@@ -116,7 +129,51 @@ p {
     text-shadow: 3px 3px 3px black;
 }
 
+.card-up-right,
+.card-up-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-up-right {
+    align-items: center;
+}
+
+.card-up-right > button {
+    margin-bottom: .7vh;
+    height: 4vh;
+    width: 25vw;
+    border-radius: 6px;
+    padding: 3% 3%;
+    background-image: linear-gradient(#eccf83, #ac7b40);
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: 700;
+    color: #000000;
+}
+
+.product-availability {
+    font-family: 'courier prime';
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+.in-stock {
+    font-family: 'courier prime';
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: 700;
+    color: greenyellow;
+    background-color: #000000;
+    border-radius: 5%;
+    padding: 2% 5%;
+}
+
 .product-image {
-    padding: 2vh;
+    padding: 3vh 6vh;
+}
+
+.product-image > img {
     border-radius: 2vh;
 }
