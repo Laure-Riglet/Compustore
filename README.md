@@ -1,7 +1,7 @@
 # Compustore
 > Compustore is a fictionnal computer store. It is meant to train both frontend and backend abilities on creating a e-commerce website.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
+<!--
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -13,6 +13,7 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
+-->
 <!-- * [License](#license) -->
 
 
