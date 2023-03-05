@@ -13,17 +13,18 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
+-->
 <!-- * [License](#license) -->
 
-
+<!--
 ## General Information
 - Provide general information about your project here.
 - What problem does it (intend to) solve?
 - What is the purpose of your project?
 - Why did you undertake it?
+-->
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
+<!--
 ## Technologies Used
 - Laravel - version 1.0
 - Tech 2 - version 2.0
@@ -39,9 +40,10 @@ List the ready features here:
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
+-->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
-
+<!--
 ## Setup
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
